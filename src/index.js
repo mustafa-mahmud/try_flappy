@@ -51,7 +51,7 @@ function create() {
   bird = this.physics.add
     .sprite(initBirdPosition.x, initBirdPosition.y, 'bird')
     .setOrigin(0);
-  // bird.body.gravity.y = 200;
+  bird.body.gravity.y = 200;
 
   // debugger;
   upperPipe = this.physics.add
